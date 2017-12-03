@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+        <ImageButton
+            android:id="@+id/ib_goGridview"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_keyboard_arrow_left_black_48dp"
+            android:scaleType="fitXY"
+            android:background="#0f00"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorPrimaryDark"/>
+    <ListView
+        android:id="@+id/listview"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:background="#0f00"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_send_black_48dp" />
+
+        <EditText
+            android:id="@+id/ed_userid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="UserID" />
+
+        <EditText
+            android:id="@+id/ed_comment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Add a comment" />
+
+        <Button
+            android:id="@+id/bt_commentPost"
+            android:onClick="onBtnPost"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#0f00"
+            android:text="POST"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

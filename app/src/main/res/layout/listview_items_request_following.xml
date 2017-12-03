@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_profilePhoto"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/profilephoto"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/tv_requestFollowingYou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@+id/iv_profilePhoto"
+            android:inputType="textMultiLine"
+            android:text="just_sour request following you"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/bt_Accept"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/bt_Ignore"
+            android:background="@drawable/button_bg"
+            android:text="Accept"
+            android:textAllCaps="false"
+            android:textColor="#757575"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/bt_Ignore"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/button_bg"
+            android:text="Ignore"
+            android:textAllCaps="false"
+            android:textColor="#757575"
+            android:textSize="12sp" />
+        <Button
+            android:id="@+id/bt_follow"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="13dp"
+            android:background="@drawable/button_bg"
+            android:text="Follow"
+            android:textColor="#757575"
+            android:textSize="12sp"
+            android:visibility="gone"/>
+        <Button
+            android:onClick="onBtn"
+            android:id="@+id/bt_following"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13dp"
+            android:background="#ffff"
+            android:text="Following"
+            android:textColor="#757575"
+            android:textSize="12sp"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+</LinearLayout>

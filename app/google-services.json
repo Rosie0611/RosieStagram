@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "741340760976",
+    "firebase_url": "https://rosiestagramcomment.firebaseio.com",
+    "project_id": "rosiestagramcomment",
+    "storage_bucket": "rosiestagramcomment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741340760976:android:b6abb6dc4463857b",
+        "android_client_info": {
+          "package_name": "rosie.example.com.rosiestagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741340760976-5ood9hh4a5qos4048r5jr5e1fk08j543.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1y7yZVuY1gWJXoWrEOy9tJ7lkUItLHMo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

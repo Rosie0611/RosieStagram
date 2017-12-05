@@ -91,11 +91,7 @@ public class MainActivity extends AppCompatActivity {
         data.add(new MyData(R.drawable.flower8,"꽃7"));
         data.add(new MyData(R.drawable.flower9,""));
         data.add(new MyData(R.drawable.flower10,""));
-//        data.add(new MyData(R.drawable.photo01));
-//        data.add(new MyData(R.drawable.photo02));
-//        data.add(new MyData(R.drawable.photo03));
-//        data.add(new MyData(R.drawable.photo04));
-//        data.add(new MyData(R.drawable.photo012));
+
 
         myBaseAdapter = new MyBaseAdapter(this, R.layout.gridview_instagram, data);
         gridView.setAdapter(myBaseAdapter);
@@ -252,23 +248,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
-//    @Override
-//    public boolean onTouchEvent(MotionEvent event) {
-//        int startX =MotionEvent.ACTION_BUTTON_PRESS;
-//        int endX = MotionEvent.ACTION_BUTTON_RELEASE;
-//        int value = startX-endX;
-//        Log.d("TAG",value+"");
-//
-////        if(value<0){
-////            Intent intent = new Intent(this,Main2Activity_Notifi_Listview.class);
-////            startActivity(intent);
-////        } else{
-////            Log.d("TAG","CANCEL TO MOVE ACTIVITY");
-////        }
-//        return super.onTouchEvent(event);
-//    }
-
 
     public void PostCount() {
         int count = myBaseAdapter.getCount();

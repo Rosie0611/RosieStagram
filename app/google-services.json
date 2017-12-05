@@ -8,20 +8,20 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:741340760976:android:b6abb6dc4463857b",
+        "mobilesdk_app_id": "#",
         "android_client_info": {
           "package_name": "rosie.example.com.rosiestagram"
         }
       },
       "oauth_client": [
         {
-          "client_id": "741340760976-5ood9hh4a5qos4048r5jr5e1fk08j543.apps.googleusercontent.com",
-          "client_type": 3
+          "client_id": "#",
+          "client_type": #
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB1y7yZVuY1gWJXoWrEOy9tJ7lkUItLHMo"
+          "current_key": "#"
         }
       ],
       "services": {
